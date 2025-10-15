@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -13,6 +14,7 @@ import common.TestListener;
 import common.TestUtil;
 import io.restassured.response.Response;
 
+@Listeners(common.TestListener.class)
 public class CreateUserTest {
 	@Test
     public void testCreateUser_Success() {
