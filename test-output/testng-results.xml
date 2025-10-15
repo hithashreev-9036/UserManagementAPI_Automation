@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-15T20:27:06 IST" name="Suite" finished-at="2025-10-15T20:27:18 IST" duration-ms="11939">
+    <groups>
+    </groups>
+    <test started-at="2025-10-15T20:27:06 IST" name="Test" finished-at="2025-10-15T20:27:18 IST" duration-ms="11939">
+      <class name="tests.CreateUserTest">
+        <test-method signature="testBatchQueryUsers_InvalidQueryParam()[pri:0, instance:tests.CreateUserTest@1a20270e]" started-at="2025-10-15T20:27:07 IST" name="testBatchQueryUsers_InvalidQueryParam" finished-at="2025-10-15T20:27:11 IST" duration-ms="4500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBatchQueryUsers_InvalidQueryParam -->
+        <test-method signature="testBatchQueryUsers_Success()[pri:0, instance:tests.CreateUserTest@1a20270e]" started-at="2025-10-15T20:27:11 IST" name="testBatchQueryUsers_Success" finished-at="2025-10-15T20:27:12 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBatchQueryUsers_Success -->
+        <test-method signature="testCreateUser_MissingEmail()[pri:0, instance:tests.CreateUserTest@1a20270e]" started-at="2025-10-15T20:27:12 IST" name="testCreateUser_MissingEmail" finished-at="2025-10-15T20:27:13 IST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser_MissingEmail -->
+        <test-method signature="testCreateUser_Success()[pri:0, instance:tests.CreateUserTest@1a20270e]" started-at="2025-10-15T20:27:13 IST" name="testCreateUser_Success" finished-at="2025-10-15T20:27:14 IST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser_Success -->
+        <test-method signature="testDeleteUser_Success()[pri:0, instance:tests.CreateUserTest@1a20270e]" started-at="2025-10-15T20:27:14 IST" name="testDeleteUser_Success" finished-at="2025-10-15T20:27:14 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser_Success -->
+        <test-method signature="testDeleteUser_UserNotFound()[pri:0, instance:tests.CreateUserTest@1a20270e]" started-at="2025-10-15T20:27:14 IST" name="testDeleteUser_UserNotFound" finished-at="2025-10-15T20:27:15 IST" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser_UserNotFound -->
+        <test-method signature="testGetUser_NotFound()[pri:0, instance:tests.CreateUserTest@1a20270e]" started-at="2025-10-15T20:27:15 IST" name="testGetUser_NotFound" finished-at="2025-10-15T20:27:16 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser_NotFound -->
+        <test-method signature="testGetUser_Success()[pri:0, instance:tests.CreateUserTest@1a20270e]" started-at="2025-10-15T20:27:16 IST" name="testGetUser_Success" finished-at="2025-10-15T20:27:16 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser_Success -->
+        <test-method signature="testUpdateUserEmail_InvalidEmail()[pri:0, instance:tests.CreateUserTest@1a20270e]" started-at="2025-10-15T20:27:16 IST" name="testUpdateUserEmail_InvalidEmail" finished-at="2025-10-15T20:27:17 IST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserEmail_InvalidEmail -->
+        <test-method signature="testUpdateUserEmail_NonExistentUser()[pri:0, instance:tests.CreateUserTest@1a20270e]" started-at="2025-10-15T20:27:17 IST" name="testUpdateUserEmail_NonExistentUser" finished-at="2025-10-15T20:27:18 IST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserEmail_NonExistentUser -->
+        <test-method signature="testUpdateUserEmail_Success()[pri:0, instance:tests.CreateUserTest@1a20270e]" started-at="2025-10-15T20:27:18 IST" name="testUpdateUserEmail_Success" finished-at="2025-10-15T20:27:18 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserEmail_Success -->
+      </class> <!-- tests.CreateUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
